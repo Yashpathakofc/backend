@@ -50,7 +50,9 @@ app.get('/login',(req,res)=>{
 app.get('/github',(req,res)=>{
     res.json(mydata)
 })
-
+app.get('/yash',()=>{
+    res.send('Yash Pathak ne kiya hai ye')
+})
 app.get('/youtube',(req,res)=>{
     res.send('<h2>Yash Pathak</h2>')
 })
